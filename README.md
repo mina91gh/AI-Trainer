@@ -2,8 +2,8 @@
 This project is a real-time arm-curl counter built with MediaPipe and OpenCV.
 It allows the user to select Left or Right arm simply by showing a left or right thumbs-up gesture, and then tracks and counts curls for the selected arm.
 
-# ⚙️ How It Works
-1. Gesture Menu — Select Left or Right Arm
+## ⚙️ How It Works
+#### 1. Gesture Menu — Select Left or Right Arm
 
 The program begins by detecting a thumbs-up gesture using a MediaPipe hands model.
 
@@ -15,7 +15,7 @@ If the user shows:
 
 Once selected, the workout mode starts automatically.
 
-2. Pose Tracking & Angle Calculation
+#### 2. Pose Tracking & Angle Calculation
 
 Using mp_pose.Pose(), the app tracks:
 
@@ -27,7 +27,7 @@ Wrist
 
 The angle between these points is calculated using a simple vector-based formula.
 
-3. Rep Counting Logic
+#### 3. Rep Counting Logic
 
 The movement is determined by angle thresholds:
 
@@ -37,7 +37,7 @@ Angle < 40° and previous phase was "down" → "up" phase → rep counted
 
 Each time the user completes a full curl cycle, the counter increases by 1.
 
-4. Set Tracking
+#### 4. Set Tracking
 
 The number of completed reps determines the current set:
 
@@ -48,13 +48,13 @@ Reps	Set
 
 When 30 reps are completed, the program ends the session and returns to the gesture menu.
 
-# 📦 Dependencies
+## 📦 Dependencies
 
 Make sure you have:
 
 pip install mediapipe opencv-python numpy
 
-# ▶️ Running the App
+## ▶️ Running the App
 You will see:
 
 Gesture menu → show thumbs up to choose arm
@@ -65,11 +65,11 @@ Program counts up to 30 reps, then returns to menu
 
 Press Q anytime to quit.
 
+<img src="https://github.com/mina91gh/AI-Trainer/blob/main/AI-Trainer-GIF.gif" width="320" height="250">
 
-![image alt](https://github.com/mina91gh/AI-Trainer/blob/main/AI-Trainer-GIF.gif)
 
 
-# How to tweak this project for your own uses:
+## How to tweak this project for your own uses:
 
 You can easily adapt the logic to fit different exercises or gestures.
 Most of the core behavior lives inside the angle-calculation and gesture-detection parts of the code. Here are a few common tweaks:
@@ -86,7 +86,7 @@ Most of the core behavior lives inside the angle-calculation and gesture-detecti
 • Changing UI or prompts:
 You can update the on-screen text, colors, or feedback messages directly in the drawing functions.
 
-# Found a Bug?
+## Found a Bug?
 
 If you find a bug, have an idea, or want to improve the project:
 
