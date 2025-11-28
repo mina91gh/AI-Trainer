@@ -66,3 +66,5 @@ Program counts up to 30 reps, then returns to menu
 Press Q anytime to quit.
 
 
+![image alt](https://github.com/mina91gh/AI-Trainer/blob/main/AI-Trainer-GIF.gif)
+
