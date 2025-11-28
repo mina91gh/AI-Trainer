@@ -2,7 +2,7 @@
 This project is a real-time arm-curl counter built with MediaPipe and OpenCV.
 It allows the user to select Left or Right arm simply by showing a left or right thumbs-up gesture, and then tracks and counts curls for the selected arm.
 
-#⚙️ How It Works
+##⚙️ How It Works
 1. Gesture Menu — Select Left or Right Arm
 
 The program begins by detecting a thumbs-up gesture using a MediaPipe hands model.
