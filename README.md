@@ -68,3 +68,31 @@ Press Q anytime to quit.
 
 ![image alt](https://github.com/mina91gh/AI-Trainer/blob/main/AI-Trainer-GIF.gif)
 
+
+# How to tweak this project for your own uses:
+
+You can easily adapt the logic to fit different exercises or gestures.
+Most of the core behavior lives inside the angle-calculation and gesture-detection parts of the code. Here are a few common tweaks:
+
+• Detecting different gestures:
+  Replace the thumbs-up detection logic with any other MediaPipe hand gesture you prefer.
+
+• Tracking another joint or movement:
+  Modify the angle-calculation points (for example, shoulder–elbow–wrist) to match the motion you want to track.
+
+• Adjusting sensitivity:
+  If the counter moves too quickly or too slowly, tune the thresholds for angle ranges and state changes.
+
+• Changing UI or prompts:
+You can update the on-screen text, colors, or feedback messages directly in the drawing functions.
+
+# Found a Bug?
+
+If you find a bug, have an idea, or want to improve the project:
+
+• Open an Issue describing the problem or suggestion
+
+• Or submit a Pull Request with your improvements
+
+
+
