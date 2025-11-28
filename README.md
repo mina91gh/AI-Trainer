@@ -69,7 +69,7 @@ Press Q anytime to quit.
 
 
 
-## How to tweak this project for your own uses:
+## 💪 How to tweak this project for your own uses:
 
 You can easily adapt the logic to fit different exercises or gestures.
 Most of the core behavior lives inside the angle-calculation and gesture-detection parts of the code. Here are a few common tweaks:
@@ -86,7 +86,7 @@ Most of the core behavior lives inside the angle-calculation and gesture-detecti
 • Changing UI or prompts:
 You can update the on-screen text, colors, or feedback messages directly in the drawing functions.
 
-## Found a Bug?
+## ![Bug](https://img.shields.io/badge/Bug-Report-important?logo=github) Found a Bug?
 
 If you find a bug, have an idea, or want to improve the project:
 
